@@ -1,5 +1,5 @@
 # Element-Creator-JS
-Creates elements with javascript array easily.
+Create elements with javascript array easily.
 
 ```javascript
 var elements = [
