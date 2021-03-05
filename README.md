@@ -12,7 +12,7 @@ HTML code:
 
 JAVASCRIPT code:
 ```javascript
-var elements2 = [
+var elements = [
 	{
 		'tag': 'div',
 		'att': {
@@ -30,9 +30,9 @@ var elements2 = [
 	}
 ];
 
-var newElem2 = create(elements2, document.getElementById('example-2'));
+var newElem = create(elements, document.getElementById('example-2'));
 
-console.log(newElem2);
+console.log(newElem);
 ```
 
 Result:
@@ -73,9 +73,9 @@ var elements = [
 	}
 ];
 
-var newElem1 = create(elements, document.body);
+var newElem = create(elements, document.body);
 
-console.log(newElem1);
+console.log(newElem);
 ```
 
 Result:
