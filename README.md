@@ -1,6 +1,7 @@
 # Element-Creator-JS
 Creates elements with javascript array easily.
 
+```javascript
 var elements = [
 	{
 		'tag': 'div',
@@ -23,3 +24,4 @@ var elements = [
 ];
 
 create(elements, document.body);
+```
