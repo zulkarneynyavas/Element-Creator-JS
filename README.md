@@ -1,9 +1,11 @@
 # Element Creator JS
 Create elements with javascript easily.
 
+#
+#
+#
 
-
-EXAMPLE #1:
+EXAMPLE #1
 
 HTML code:
 ```javascript
@@ -44,9 +46,11 @@ Result:
 </div>
 ```
 
+#
+#
+#
 
-
-EXAMPLE #2:
+EXAMPLE #2
 
 JAVASCRIPT code:
 ```javascript
