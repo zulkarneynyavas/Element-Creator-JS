@@ -1,6 +1,7 @@
 # Element-Creator-JS
 Create elements with javascript easily.
 
+JAVASCRIPT code:
 ```javascript
 var elements = [
 	{
@@ -28,7 +29,7 @@ var elements = [
 create(elements, document.body);
 ```
 
-Result:
+HTML result:
 ```html
 <div class="example-class">
 	<button id="example-id">Send</button>
