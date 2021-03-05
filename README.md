@@ -2,6 +2,7 @@
 Create elements with javascript easily.
 
 
+
 EXAMPLE #1:
 
 HTML code:
@@ -42,6 +43,7 @@ Result:
 	</div>
 </div>
 ```
+
 
 
 EXAMPLE #2:
