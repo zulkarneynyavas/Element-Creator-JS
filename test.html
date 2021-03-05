@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Element Creator JS</title>
+</head>
+<body>
+
+	<script src="element.creator.min.js"></script>
+
+	<script>
+
+		var elements = [
+			{
+				'tag': 'div',
+				'html': 'a',
+				'child': [
+					{
+						'tag': 'button',
+						'att': {
+							'id': 'wowow'
+						},
+						'html': 'e',
+						'script': {
+							'click': function(params) {
+								console.log(this);
+							}
+						}
+					}
+				]
+			}
+		];
+
+		create(elements, document.body);
+
+	</script>
+
+</body>
+</html>
