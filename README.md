@@ -1,4 +1,4 @@
-# Element-Creator-JS
+# Element Creator JS
 Create elements with javascript easily.
 
 
