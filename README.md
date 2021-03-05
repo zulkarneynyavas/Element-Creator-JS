@@ -1,9 +1,9 @@
 # Element Creator JS
 Create elements with javascript easily.
 
+
 #
-#
-#
+
 
 EXAMPLE #1
 
@@ -46,9 +46,9 @@ Result:
 </div>
 ```
 
+
 #
-#
-#
+
 
 EXAMPLE #2
 
