@@ -1,5 +1,4 @@
 /*! ElementCreator 1.0.0 | https://github.com/zulkarneynyavas/Element-Creator-JS | (c) 2021 Zülkarneyn Yavaş | MIT License */
-
 !(function(h) {
 	'use strict';
 	h.create = function(a, b, c) {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,22 +10,58 @@
 
 	<script src="element.creator.min.js"></script>
 
+	<h2>EXAMPLE #1</h2>
+
+	<div id="example-2"></div>
+
+	<script>
+
+		var elements2 = [
+			{
+				'tag': 'div',
+				'att': {
+					'class': 'example-1'
+				},
+				'child': [
+					{
+						'tag': 'span',
+						'html': 'Auto script!',
+						'script': function(params) {
+							alert('Example #1');
+						}
+					}
+				]
+			}
+		];
+
+		var newElem2 = create(elements2, document.getElementById('example-2'));
+
+		console.log(newElem2);
+
+	</script>
+
+	<hr>
+
+	<h2>EXAMPLE #2</h2>
+
 	<script>
 
 		var elements = [
 			{
 				'tag': 'div',
-				'html': 'a',
+				'att': {
+					'class': 'example-class'
+				},
 				'child': [
 					{
 						'tag': 'button',
 						'att': {
-							'id': 'wowow'
+							'id': 'example-id'
 						},
-						'html': 'e',
+						'html': 'Click me!',
 						'script': {
 							'click': function(params) {
-								console.log(this);
+								alert('Example #2');
 							}
 						}
 					}
@@ -33,7 +69,9 @@
 			}
 		];
 
-		create(elements, document.body);
+		var newElem1 = create(elements, document.body);
+
+		console.log(newElem1);
 
 	</script>
 
