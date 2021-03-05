@@ -5,14 +5,16 @@ Create elements with javascript easily.
 var elements = [
 	{
 		'tag': 'div',
-		'html': 'a',
+		'att': {
+			'class': 'example-class'
+		},
 		'child': [
 			{
 				'tag': 'button',
 				'att': {
-					'id': 'wowow'
+					'id': 'example-id'
 				},
-				'html': 'e',
+				'html': 'Send',
 				'script': {
 					'click': function(params) {
 						console.log(this);
@@ -24,4 +26,11 @@ var elements = [
 ];
 
 create(elements, document.body);
+```
+
+Result:
+```html
+<div class="example-class">
+	<button id="example-id">Send</button>
+</div>
 ```
