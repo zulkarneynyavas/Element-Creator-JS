@@ -7,12 +7,12 @@ Create elements with javascript easily.
 
 EXAMPLE #1
 
-HTML code:
+HTML:
 ```javascript
 <div id="example-2"></div>
 ```
 
-JAVASCRIPT code:
+JAVASCRIPT:
 ```javascript
 var elements = [
 	{
@@ -37,7 +37,7 @@ var newElem = create(elements, document.getElementById('example-2'));
 console.log(newElem);
 ```
 
-Result:
+RESULT:
 ```html
 <div id="example-2">
 	<div>
@@ -52,7 +52,7 @@ Result:
 
 EXAMPLE #2
 
-JAVASCRIPT code:
+JAVASCRIPT:
 ```javascript
 var elements = [
 	{
@@ -82,7 +82,7 @@ var newElem = create(elements, document.body);
 console.log(newElem);
 ```
 
-Result:
+RESULT:
 ```html
 <div class="example-class">
 	<button id="example-id">Click me!</button>
